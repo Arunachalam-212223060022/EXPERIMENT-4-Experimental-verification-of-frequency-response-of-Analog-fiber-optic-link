@@ -43,32 +43,45 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="583" height="212" alt="image" src="https://github.com/user-attachments/assets/a635a07c-e570-4a54-9099-b43b71dc2608" />
+
 
 ---
 
 ## CONNECTION DIAGRAM  
 **Setting up an Analog Link**
 
-*(Insert connection diagram here)*
+<img width="614" height="362" alt="image" src="https://github.com/user-attachments/assets/d0c2f143-eb3f-4df8-aa22-7298f00de528" />
+<img width="586" height="124" alt="image" src="https://github.com/user-attachments/assets/7114bfbd-736a-4a40-bb98-dbf34f2c9f29" />
+
 
 ---
 
 ## TABULATION  
-**Transmission through Analog Link**
+![WhatsApp Image 2025-11-17 at 04 16 36_f590487a](https://github.com/user-attachments/assets/9e08aabc-d15c-4b65-ac94-b7004d0978f3)
 
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+
+| Frequency     | Output Signal (Vo) | Gain (Vo/Vi) | Gain in dB |
+|---------------|--------------------|--------------|------------|
+| 50 Hz         | 138 V              | 0.644        | 0.988      |
+| 8.33 Hz       | 150 V              | 0.700        | 1.549      |
+| 9.86 Hz       | 138 V              | 0.691        | 1.605      |
+| 10.2 kHz      | 148 V              | 0.691        | 1.605      |
+| 15 kHz        | 148 V              | 0.684        | 1.624      |
+| 16 kHz        | 148 V              | 0.672        | 1.726      |
+| 33 kHz        | 148 V              | 0.682        | 1.824      |
+| 3 MHz         | 136 V              | 0.28         | 1.526      |
+
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+![WhatsApp Image 2025-11-17 at 04 17 37_55b63258](https://github.com/user-attachments/assets/0ce265e7-cece-4a2f-b141-162ddb1c4fa8)
+
 
 ---
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Hence, the relationship between input and received signal of a 660nm fiber optic cable using analog and digital link is verified.
